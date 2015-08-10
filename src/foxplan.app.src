@@ -1,0 +1,17 @@
+{application, 'foxplan',
+ [{description, "An OTP application"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, {'foxplan_app', []}},
+  {applications,
+   [kernel,
+    stdlib,
+    cowboy
+   ]},
+  {env,[]},
+  {modules, [foxplan]},
+
+  {contributors, []},
+  {licenses, []},
+  {links, []}
+ ]}.
